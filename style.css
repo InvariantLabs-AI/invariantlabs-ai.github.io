@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'DM Sans';
+  src: url('DMSans-VariableFont_opsz,wght.ttf') format('truetype');
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
     font-family: 'DM Sans', sans-serif;
     color: #292929;
@@ -70,4 +79,17 @@ p {
       border-color: #1b1f2326;
       transition-duration: 0.1s;
   }
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  text-align: right;
+}
+
+footer * {
+  padding: 0.2rem 1rem;
+  font-size: 0.6em;
 }
